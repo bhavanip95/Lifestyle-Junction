@@ -23,7 +23,7 @@ function Categories() {
 
 
 
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
             {/* Example card 1 */}
             {/* Beauty & Self-Care Card */}
             <div className="card w-80 bg-base-100 shadow-xl">

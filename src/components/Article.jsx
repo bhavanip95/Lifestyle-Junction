@@ -316,6 +316,17 @@ function Article() {
   return (
 
     <>
+      {/* retro 
+    corporate
+    fantasy
+    cmyk
+    */}
+      <div data-theme="retro" role="tablist" className="tabs tabs-lift tabs-xl flex justify-evenly font-semibold">
+        <input type="radio" name="my_tabs_1" class="tab" aria-label="Hair care" checked="checked" />
+        <input type="radio" name="my_tabs_1" class="tab" aria-label="Skin Care" />
+
+      </div>
+
 
       <div data-theme="caramellatte">
         <div className="hero bg-base-200 max-w-screen">
@@ -373,64 +384,64 @@ function Article() {
 
 
       </div>
-<div data-theme="light">
-  
-<div className="grid grid-cols-1 md:grid-cols-2 gap-10 m-2 p-3">
+      <div data-theme="light">
 
- 
-        {articles.map((article, index) => (
-          <div data-theme="valentine">
-          <ul className="list bg-base-100 rounded-box shadow-md">
-            {/* Heading or Subheading */}
-            <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
-              <div className="badge badge-secondary">{article.tags[0]}</div>
-            </li>
-            <li className="list-row">
-              {/* Thumbnail Image */}
-              <div>
-                <img
-                  className="size-20 rounded-box"
-                  src={HairCare}
-                  alt="Hair Mask"
-                />
-              </div>
-              {/* Title & Subtitle */}
-              <div>
-                <div className="card-title text-l font-bold">{article.title}</div>
-                <div className="text-gray-700">{article.excerpt}</div>
-                {/* <p className="list-col-wrap text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 m-2 p-3">
+
+
+          {articles.map((article, index) => (
+            <div data-theme="valentine">
+              <ul className="list bg-base-100 rounded-box shadow-md">
+                {/* Heading or Subheading */}
+                <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">
+                  <div className="badge badge-secondary">{article.tags[0]}</div>
+                </li>
+                <li className="list-row">
+                  {/* Thumbnail Image */}
+                  <div>
+                    <img
+                      className="size-20 rounded-box"
+                      src={HairCare}
+                      alt="Hair Mask"
+                    />
+                  </div>
+                  {/* Title & Subtitle */}
+                  <div>
+                    <div className="card-title text-l font-bold">{article.title}</div>
+                    <div className="text-gray-700">{article.excerpt}</div>
+                    {/* <p className="list-col-wrap text-xs">
                                  Explore 20 DIY hair masks packed with natural ingredients to revitalize and nourish your hair.
                                  Perfect for tackling dryness, split ends, and more.
                                </p> */}
-              </div>
-              {/* Description */}
+                  </div>
+                  {/* Description */}
 
-              {/* Action Buttons (example icons) */}
-              <Link to="/ReadMoreArticle" className="btn btn-square btn-ghost">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </Link>
+                  {/* Action Buttons (example icons) */}
+                  <Link to="/ReadMoreArticle" className="btn btn-square btn-ghost">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </Link>
 
 
-            </li>
-          </ul>
-          </div>
-        ))}
+                </li>
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
-</div>
-      
+
 
     </>
 
