@@ -2,3 +2,48 @@
 @plugin "daisyui" {
   themes: all;
 }
+/* Style the Google Translate Dropdown */
+#google_translate_element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hide the ugly Google Translate toolbar */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+/* Style the dropdown */
+.goog-te-gadget {
+  font-size: 14px !important;
+  color: white !important;
+}
+
+/* Remove the "Powered by Google" text */
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Style the dropdown box */
+.goog-te-combo {
+  background-color: #1f2937 !important; /* Dark background */
+  color: white !important; /* White text */
+  border: 1px solid #ffffff50 !important;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Change dropdown arrow color */
+.goog-te-combo::after {
+  color: white !important;
+}
+
+/* Adjust positioning */
+.goog-te-gadget-simple {
+  border: none !important;
+  background: transparent !important;
+  padding: 5px;
+}

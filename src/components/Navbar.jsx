@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher";
 const   Navbar = ()=> {
     return (
       <>
@@ -108,7 +109,8 @@ const   Navbar = ()=> {
               placeholder="Search"
               className="input input-bordered w-24 md:w-auto"
             />
-            <button className="btn btn-primary">Sign In</button>
+            {/* <button className="btn btn-primary">Sign In</button> */}
+            <LanguageSwitcher/>
           </div>
         </header>
       </div>
