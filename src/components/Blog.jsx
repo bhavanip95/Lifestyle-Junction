@@ -2,10 +2,37 @@ import React from 'react';
 import hair from '../assets/explore/hairDiy.png';
 import dhokla from '../assets/explore/dhokla.png';
 import rangooli from '../assets/explore/rangooli.png';
+import blogImage4 from '../assets/blogImage4.png';
+import CreateBlog from './CreateBlog';
 
 function Blog() {
   return (
     <div>
+     
+
+
+      {/* <div className="hero" data-theme="caramellatte">
+            
+
+             
+          <div className="hero-content flex-col lg:flex-row gap-6">
+            
+            <img
+              src={blogImage4}
+              alt="Express yourself"
+              className="w-full max-w-lg rounded-lg shadow-2xl"
+            />
+            <div>
+              <h1 className="text-4xl font-bold">What's on your mind</h1>
+              <p className="py-6">
+                Have something to say? Share it with people who get you!
+              </p>
+              <button className="btn btn-primary px-6 py-2 rounded-lg shadow-md hover:scale-105 transition-transform duration-200">
+                ✍️ Express Yourself
+              </button>
+            </div>
+          </div>
+        </div> */}
       <div data-theme="lofi" className="py-10 px-4 md:px-8 lg:px-16">
         <ul className="list bg-base-100 rounded-box shadow-md">
           {/* Heading */}
@@ -106,6 +133,7 @@ function Blog() {
           </li>
         </ul>
       </div>
+      <CreateBlog/>
     </div>
   );
 }

@@ -257,7 +257,10 @@ const Navbar = () => {
                         <summary>Travel &amp; Leisure</summary>
                         <ul className="p-2">
                           <li>
-                            <a>Travel Ideas</a>
+                            <a>Travel</a>
+                          </li>
+                          <li>
+                            <a>Me - Time</a>
                           </li>
                         </ul>
                       </details>
