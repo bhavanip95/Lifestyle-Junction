@@ -38,7 +38,7 @@ function Categories() {
                 <h3 className="card-title text-xl font-bold">Beauty &amp; Self-Care</h3>
                 <p className="text-gray-600">Tips and tutorials for natural beauty.</p>
                 <div className="card-actions justify-center">
-                <Link to="/articles/beauty" className="btn btn-outline btn-primary">
+                <Link to="/articles/beauty/skinCare" className="btn btn-outline btn-primary">
                 Read More
               </Link>
                 </div>
@@ -58,7 +58,7 @@ function Categories() {
                 <h3 className="card-title text-xl font-bold">Food &amp; Nutrition</h3>
                 <p className="text-gray-600">Healthy recipes and diet plans.</p>
                 <div className="card-actions justify-center">
-                  <button className="btn btn-outline btn-primary">Read More</button>
+                <Link to="/articles/food" className="btn btn-outline btn-primary">Read More</Link>
                 </div>
               </div>
             </div>

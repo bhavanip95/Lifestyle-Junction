@@ -32,7 +32,8 @@ function App() {
           <Route index element={<Categories />} />
 
           {/* Example route for an Article page, using a param for category */}
-          <Route path="articles/:category" element={<Article />} />
+          <Route path="/articles/:category/:subCategory" element={<Article />} />
+
 
           {/* You can add more nested routes as needed */}
         </Route>
