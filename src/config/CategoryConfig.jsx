@@ -26,6 +26,19 @@ export const categoryConfig = {
         subtitle: "Easy everyday looks",
         image: "/images/subcategories/makeup.jpg",
       },
+      {
+        key: "Body-Care",
+        title: "Body Care",
+        subtitle: "Nourish your skin head to toe",
+        image: "/images/subcategories/body-care.jpg",
+      },
+
+      {
+        key: "personal-hygiene",
+        title: "Personal Hygiene",
+        subtitle: "Stay fresh & confident",
+        image: "/images/subcategories/hygiene.jpg",
+      }
     ],
   },
 
@@ -48,6 +61,37 @@ export const categoryConfig = {
         subtitle: "Quick & guilt-free",
         image: "/images/subcategories/healthy-snacks.jpg",
       },
+        {
+        key: "diet-plans",          
+        title: "Diet Plans",
+        subtitle: "Personalized nutrition guides",
+        image: "/images/subcategories/diet-plans.jpg",
+      },
+       {
+        key: "meal-prep",             
+        title: "Meal Prep",
+        subtitle: "Save time with smart prep",
+        image: "/images/subcategories/meal-prep.jpg",
+      },
+       {
+        key: "nutrition-tips",    
+        title: "Nutrition Tips",
+        subtitle: "Eat well, live well",
+        image: "/images/subcategories/nutrition-tips.jpg",
+      },            
+        {
+        key: "traditional-recipes",
+        title: "Traditional Recipes",
+        subtitle: "Classic dishes with a twist",    
+          
+        image: "/images/subcategories/traditional-recipes.jpg",
+      },
+       {
+        key: "festival-specials",
+        title: "Festival Specials",
+        subtitle: "Celebrate with festive flavors",               
+        image: "/images/subcategories/festival-specials.jpg",
+      },    
     ],
   },
 

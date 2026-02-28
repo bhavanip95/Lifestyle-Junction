@@ -2,8 +2,8 @@ const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 
-const inputDir = path.join(__dirname, "../public/Images");
-const outputDir = path.join(__dirname, "../public/Images");
+const inputDir = path.join(__dirname, "../Images");
+const outputDir = path.join(__dirname, "../Images");
 
 function convertFolder(folderPath) {
   fs.readdirSync(folderPath).forEach((file) => {
